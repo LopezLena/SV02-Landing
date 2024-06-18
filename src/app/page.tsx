@@ -21,6 +21,7 @@ export default function Home() {
               </div>
               <div className="w-full h-[50px] opacity-[80%] pt-16 flex justify-center items-center">
                 <span className="text-[24px] leading-[28.8px] text-white">Get early access now!</span>
+                <Image src="/icon.webp" width={30} height={30} alt="icon"/>
               </div>
               <div className="w-full h-[100px]  flex items-center pt-20">
                 <button className="w-[336px] h-[74px] rounded-[55px] bg-[#BABABA] text-[24px] text-white">Your Email</button>
@@ -29,7 +30,7 @@ export default function Home() {
           </div>
       </div>
       <div className="w-full flex justify-center items-center">
-          <div className="w-[1046px] flex flex-col justify-center items-center text-white h-[88px] rounded-[20px] border-[3px] border-solid border-[rgba(255, 255, 255, 0.2)]">
+          <div className="w-[1046px] flex flex-col justify-center items-center text-white h-[88px] rounded-[20px] border-[3px] border-solid border-white/20">
               <div className="w-full h-[40px] flex justify-center items-center">
                 <Link href="#">Home</Link>
                 <Link href="#">Terms of service </Link>
